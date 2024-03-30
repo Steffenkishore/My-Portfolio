@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  background-image: url(background2.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.profile-image {
+  height: 70px;
+  border-radius: 11px;
+}
+
+.profile {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.main-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 18px;
+}
+
+.demo-image {
+  height: 350px;
+  width: 300px;
+  border-radius: 11px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.role-box {
+  text-align: center;
+  height: 32px;
+  width: 180px;
+  background-color: #f5f0f1;
+  border-radius: 8px;
+  /*  margin: auto;   */
+}
+
+.role {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.fa-linkedin {
+  color: darkblue;
+}
+
+.fa-twitter {
+  color: #0986e6;
+}
+
+.fa-instagram {
+  color: #f03e6e;
+}
+
+.fa-github {
+  color: black;
+}
+
+.icon {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 7px;
+  margin-right: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #f5f0f1;
+  border-radius: 5px;
+}
+
+.icon1 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 5px;
+  height: 43px;
+  width: 41px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.personal-info-box {
+  background-color: #f5f0f1;
+  margin-top: 8px;
+  height: 300px;
+  width: 300px;
+  border-radius: 13px;
+}
+
+.box {
+  background-color: #f5f0f1;
+  height: 60px;
+  width: 100%;
+  padding: 5px;
+}
+
+.info-box {
+  height: 50px;
+  width: 100%;
+  text-align: start;
+  margin-left: 3px;
+}
+
+.info1 {
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.info2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.Download-bt {
+  margin-top: 11px;
+  height: 50px;
+  width: 160px;
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  border-width: 0px;
+}
+
+.d-icon {
+  font-size: 18px;
+  margin-right: 3px;
+  color: white;
+}

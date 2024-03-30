@@ -25,13 +25,119 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8b0a87fb55.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <div class="container" id="background">
+    <nav class="w-100 navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="my passport pic.jpg" class="mr-3 profile-image" />
+        <h1 class="d-inline profile">Profile</h1>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="ml-auto navbar-nav">
+          <a class="nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container">
       <div class="row">
-        <h1>Hello world</h1>
-        <h1>Hello world</h1>
+        <div class="p-3 mt-3 profile-box text-center">
+          <div class="demo-image-box">
+            <img src="my passport pic.jpg" class="demo-image" />
+          </div>
+          <h1 class="mt-3 mb-3 name">Steffen Kishore</h1>
+          <div class="role-box">
+            <h1 class="role">Wed Developer</h1>
+          </div>
+          <div class="mt-3 d-flex justify-content-around">
+            <i class="icon fa-brands fa-linkedin"></i>
+            <i class="icon fa-brands fa-twitter"></i>
+            <i class="icon fa-brands fa-instagram"></i>
+            <i class="icon fa-brands fa-github"></i>
+          </div>
+          <div
+            class="p-4 personal-info-box d-flex flex-column justify-content-start"
+          >
+            <div class="box d-flex flex-row justify-content-start">
+              <div class="info-icon-box">
+                <i class="icon1 fa-solid fa-phone" style="color: blue"></i>
+              </div>
+              <div class="info-box">
+                <p class="info1">Phone</p>
+                <p class="info2">+91 9944192246</p>
+              </div>
+            </div>
+
+            <div class="box d-flex flex-row justify-content-start">
+              <div class="info-icon-box">
+                <i class="icon1 fa-solid fa-envelope" style="color: red"></i>
+              </div>
+              <div class="info-box">
+                <p class="info1">Email</p>
+                <p class="info2">kishoresteffen@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="box d-flex flex-row justify-content-start">
+              <div class="info-icon-box">
+                <i
+                  class="icon1 fa-solid fa-location-dot"
+                  style="color: #fa668e"
+                ></i>
+              </div>
+              <div class="info-box">
+                <p class="info1">Location</p>
+                <p class="info2">Chennai,Tamil Nadu</p>
+              </div>
+            </div>
+
+            <div class="box d-flex flex-row justify-content-start">
+              <div class="info-icon-box">
+                <i
+                  class="icon1 fa-solid fa-calendar-days"
+                  style="color: blueviolet"
+                ></i>
+              </div>
+              <div class="info-box">
+                <p class="info1">Date of Birth</p>
+                <p class="info2">May 26, 2004</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <button class="Download-bt">
+              <i class="d-icon fa-solid fa-download"></i>Download Cv
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
