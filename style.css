@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-body {
+.background {
   background-image: url(background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body {
 }
 
 .profile-image {
-  height: 70px;
+  height: 50px;
   border-radius: 11px;
 }
 
@@ -46,11 +46,19 @@ body {
 
 .role-box {
   text-align: center;
-  height: 32px;
+  height: 38px;
   width: 180px;
-  background-color: #f5f0f1;
+  background-color: white;
   border-radius: 8px;
-  /*  margin: auto;   */
+  border-style: hidden;
+}
+
+.role-box:hover {
+  border-style: solid;
+  border-width: 3px;
+  border-color: aqua;
+  box-shadow: 0px 0px 15px 8px aqua;
+  transition: 0.3s;
 }
 
 .role {
@@ -75,14 +83,19 @@ body {
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 9px;
   margin-right: 5px;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   background-color: #f5f0f1;
   border-radius: 5px;
+}
+
+.icon:hover {
+  background-color: #0986e6;
+  color: white;
 }
 
 .icon1 {
@@ -94,6 +107,11 @@ body {
   width: 41px;
   background-color: white;
   border-radius: 8px;
+}
+
+.icon1:hover {
+  background-color: #0986e6;
+  color: white !important;
 }
 
 .personal-info-box {
@@ -128,14 +146,19 @@ body {
   font-weight: 500;
 }
 
-.Download-bt {
+.download-bt {
   margin-top: 11px;
   height: 50px;
-  width: 160px;
+  width: 140px;
   background-color: blue;
   color: white;
   border-radius: 12px;
   border-width: 0px;
+}
+
+.download-bt:hover {
+  box-shadow: 0px 0px 15px 8px #474747;
+  transition: 0.3s;
 }
 
 .progress {
@@ -152,7 +175,7 @@ body {
   background-color: lightgreen;
 }
 
-.d-icon {
+.down-icon {
   font-size: 18px;
   margin-right: 3px;
   color: white;
