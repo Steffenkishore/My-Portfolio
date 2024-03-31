@@ -3,6 +3,8 @@
 body {
   background-image: url(background2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 100vh;
 }
 
@@ -24,12 +26,8 @@ body {
   padding: 10px;
 }
 
-.profile-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.profile-box,
+.about-box {
   width: 100%;
   background-color: white;
   border-radius: 18px;
@@ -144,4 +142,35 @@ body {
   font-size: 18px;
   margin-right: 3px;
   color: white;
+}
+
+.about-heading {
+  text-align: start;
+  margin: 5px;
+}
+
+.about-me {
+  padding: 5px;
+}
+
+.works {
+  padding: 5px;
+  width: 100%;
+  border-radius: 13px;
+  background-color: #efcbf5;
+}
+
+.work-heading {
+  font-size: 28px;
+  font-weight: 500;
+}
+.work-info {
+  font-size: 18px;
+}
+.work-img {
+  font-size: 140px;
+}
+
+.chip-icon {
+  color: #daff48;
 }
