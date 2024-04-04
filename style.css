@@ -1,11 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .background {
-  background-image: url(background2.jpg);
+  background-color: yellow;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+  width: 100%;
+}
+
+.horizontal-line {
+  width: 25%;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #ff7d4a;
 }
 
 .profile-image {
@@ -26,8 +34,7 @@
   padding: 10px;
 }
 
-.profile-box,
-.about-box {
+.profile-box {
   width: 100%;
   background-color: white;
   border-radius: 18px;
@@ -48,6 +55,7 @@
   text-align: center;
   height: 38px;
   width: 180px;
+  padding-top: 4px;
   background-color: white;
   border-radius: 8px;
   border-style: hidden;
@@ -150,15 +158,18 @@
   margin-top: 11px;
   height: 50px;
   width: 140px;
-  background-color: blue;
-  color: white;
+  background-color: #ff7d4a;
+  color: #0a0a09;
   border-radius: 12px;
   border-width: 0px;
+  font-weight: bold;
 }
 
 .download-bt:hover {
-  box-shadow: 0px 0px 15px 8px #474747;
-  transition: 0.3s;
+  background-color: #0a0a09;
+  color: white;
+  border-width: 0px;
+  transition: 0.7s;
 }
 
 .progress {
@@ -172,7 +183,18 @@
 
 .progress-line {
   width: 80%;
-  background-color: lightgreen;
+  background-color: #ff7d4a;
+  animation: line 1.2s linear 1s;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes line {
+  from {
+    transform: translateX(-500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 .down-icon {
@@ -223,7 +245,18 @@
   font-size: 18px;
 }
 
+.edu-icon {
+  font-size: 20px;
+  color: #f03e6e;
+}
+
 .contact-icon {
   font-size: 20px;
   margin-right: 5px;
+}
+
+.education-box {
+  border-left: solid #f03e6e 1px;
+  border-bottom: solid #f03e6e 1px;
+  /*  box-shadow: 0px 10px 10px #f03e6e;    */
 }
