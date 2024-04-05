@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
 .background {
-  background-color: yellow;
+  background-color: #ffc933;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -216,18 +216,17 @@
   padding: 5px;
   width: 100%;
   border-radius: 13px;
-  background-color: #efcbf5;
 }
 
 .work-heading {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 500;
 }
 .work-info {
   font-size: 18px;
 }
 .work-img {
-  font-size: 140px;
+  font-size: 80px;
 }
 
 .contact-img {
@@ -247,16 +246,40 @@
 
 .edu-icon {
   font-size: 20px;
-  color: #f03e6e;
+  color: #ff7d4a;
 }
 
 .contact-icon {
   font-size: 20px;
-  margin-right: 5px;
+  margin-right: 8px;
+  color: #ff7d4a;
 }
 
 .education-box {
-  border-left: solid #f03e6e 1px;
-  border-bottom: solid #f03e6e 1px;
+  border-left: solid #ff7d4a 1.5px;
+  border-bottom: solid #ff7d4a 1.5px;
   /*  box-shadow: 0px 10px 10px #f03e6e;    */
+}
+
+#name {
+  width: 75%;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+#message {
+  width: 75%;
+  height: 110px;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+#message-btn {
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
 }
