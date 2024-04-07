@@ -10,9 +10,9 @@
 }
 
 .horizontal-line {
-  width: 25%;
+  width: 100%;
   border-style: solid;
-  border-width: 1.5px;
+  border-width: 2px;
   border-color: #ff7d4a;
 }
 
@@ -34,7 +34,8 @@
   padding: 10px;
 }
 
-.profile-box {
+.profile-box,
+.service-box {
   width: 100%;
   background-color: white;
   border-radius: 18px;
@@ -56,22 +57,12 @@
   height: 38px;
   width: 180px;
   padding-top: 4px;
-  background-color: white;
-  border-radius: 8px;
-  border-style: hidden;
-}
-
-.role-box:hover {
-  border-style: solid;
-  border-width: 3px;
-  border-color: aqua;
-  box-shadow: 0px 0px 15px 8px aqua;
-  transition: 0.3s;
 }
 
 .role {
   font-size: 20px;
-  font-weight: normal;
+  font-family: "roboto";
+  font-weight: bold;
 }
 
 .fa-linkedin {
@@ -102,39 +93,40 @@
 }
 
 .icon:hover {
-  background-color: #0986e6;
-  color: white;
+  background-color: #ff7d4a;
+  color: #0a0a09 !important;
+  transition: 0.3s;
 }
 
 .icon1 {
   font-size: 25px;
   text-align: center;
   padding-top: 8px;
-  margin-right: 5px;
+  margin-right: 6px;
+  margin-top: 2px;
   height: 43px;
   width: 41px;
-  background-color: white;
+  background-color: #f5f0f1;
   border-radius: 8px;
 }
 
 .icon1:hover {
-  background-color: #0986e6;
-  color: white !important;
+  background-color: #ff7d4a;
+  color: #0a0a09 !important;
+  transition: 0.3s;
 }
 
 .personal-info-box {
-  background-color: #f5f0f1;
-  margin-top: 8px;
+  margin-top: 5px;
   height: 300px;
   width: 300px;
   border-radius: 13px;
 }
 
 .box {
-  background-color: #f5f0f1;
   height: 60px;
   width: 100%;
-  padding: 5px;
+  padding: 8px;
 }
 
 .info-box {
@@ -174,11 +166,11 @@
 
 .progress {
   width: 100%;
-  height: 12px;
+  height: 8px;
   background-color: white;
   border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  border-width: 0.5px;
+  border-color: gray;
 }
 
 .progress-line {
@@ -250,9 +242,9 @@
 }
 
 .contact-icon {
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 8px;
-  color: #ff7d4a;
+  color: black;
 }
 
 .education-box {
@@ -282,4 +274,27 @@
   font-size: 16px;
   font-weight: 500;
   border-radius: 8px;
+}
+
+.navbar-toggler {
+  border-style: solid;
+  border-color: ghostwhite;
+  border-width: 0.5px;
+  color: ghostwhite;
+}
+
+.cont-icon {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 9px;
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #f5f0f1;
+  border-radius: 5px;
+}
+.cont-icon:hover {
+  background-color: #0a0a09 !important;
+  color: white !important;
+  transition: 0.3s;
 }
