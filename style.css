@@ -5,7 +5,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
+  width: 100%;
+}
+
+#responsive-con {
+  background-color: ;
+  border-radius: 18px;
   width: 100%;
 }
 
@@ -41,9 +48,14 @@
   border-radius: 18px;
 }
 
-.demo-image {
+.demo-image-box {
+  width: 85%;
   height: 350px;
-  width: 300px;
+}
+
+.demo-image {
+  height: 100%;
+  width: 100%;
   border-radius: 11px;
 }
 
@@ -106,7 +118,7 @@
   margin-top: 2px;
   height: 43px;
   width: 41px;
-  background-color: #f5f0f1;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -117,16 +129,21 @@
 }
 
 .personal-info-box {
-  margin-top: 5px;
+  background-color: #f5f0f1;
   height: 300px;
-  width: 300px;
+  width: 100%;
   border-radius: 13px;
+}
+
+.info-con {
+  width: 100% !important;
 }
 
 .box {
   height: 60px;
   width: 100%;
   padding: 8px;
+  margin-top: 3px;
 }
 
 .info-box {
@@ -139,17 +156,20 @@
 .info1 {
   font-size: 13px;
   margin-bottom: 2px;
+  width: 100%;
 }
 
 .info2 {
   font-size: 15px;
   font-weight: 500;
+  width: 100%;
+  padding: 2px;
 }
 
 .download-bt {
   margin-top: 11px;
   height: 50px;
-  width: 140px;
+  width: 100%;
   background-color: #ff7d4a;
   color: #0a0a09;
   border-radius: 12px;
