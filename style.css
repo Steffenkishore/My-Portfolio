@@ -76,7 +76,7 @@
 
 .role {
   font-size: 20px;
-  font-family: "roboto";
+  font-family: Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -164,7 +164,8 @@
 
 .info2 {
   font-size: 15px;
-  font-weight: 500;
+  font-family: Arial;
+  font-weight: 600;
   width: 100%;
   padding: 2px;
 }
@@ -231,6 +232,7 @@
 
 .about-me {
   padding: 5px;
+  color: #302f2f;
 }
 
 .works {
@@ -240,6 +242,18 @@
   border-width: 0px;
 }
 
+.skills {
+  font-family: "Courier New", monospace;
+  font-weight: 600;
+}
+
+.percentage {
+}
+
+.time {
+  font-family: "Brush Script MT", cursive;
+  font-size: 18px;
+}
 .works:hover {
   border-style: solid;
   border-color: #f5f0f1;
