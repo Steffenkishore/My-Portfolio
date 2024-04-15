@@ -248,12 +248,36 @@
 }
 
 .percentage {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.center-name {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #383838;
 }
 
 .time {
   font-family: "Brush Script MT", cursive;
-  font-size: 18px;
+  font-size: 20px;
+  color: #6e6e6e;
 }
+
+.qualification {
+  font-family: Garamond, serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.qualification-info {
+  font-family: Garamond, serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 19px;
+}
+
 .works:hover {
   border-style: solid;
   border-color: #f5f0f1;
@@ -263,11 +287,14 @@
 }
 
 .work-heading {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .work-info {
   font-size: 18px;
+  color: #6e6e6e;
+  font-weight: 500;
 }
 .work-img {
   font-size: 80px;
@@ -337,8 +364,7 @@
 .navbar-toggler {
   border-style: solid;
   border-color: ghostwhite;
-  border-width: 0.5px;
-  color: ghostwhite;
+  border-width: 1px;
 }
 
 .cont-icon {
