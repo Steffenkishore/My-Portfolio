@@ -52,8 +52,8 @@
 }
 
 .demo-image-box {
-  height: 380px;
-  width: 85%;
+  height: 360px;
+  width: 83%;
 }
 
 .demo-image {
@@ -267,17 +267,17 @@
 
 .qualification {
   font-family: Garamond, serif;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 19px;
 }
 
 .qualification-info {
-  font-family: Garamond, serif;
-  font-weight: 500;
+  font-family: ;
+  font-weight: normal;
   color: #000000;
   font-size: 19px;
 }
-
+/*Garamond, serif*/
 .works:hover {
   border-style: solid;
   border-color: #f5f0f1;
