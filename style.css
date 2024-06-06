@@ -24,9 +24,6 @@
   border-color: #ff7d4a;
 }
 
-.con-box {
-}
-
 .profile-image {
   height: 50px;
   border-radius: 11px;
@@ -202,7 +199,6 @@
   width: 80%;
   background-color: #ff7d4a;
   animation: line 1.2s linear 1s;
-  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
 
 @keyframes line {
@@ -278,7 +274,7 @@
   color: #000000;
   font-size: 19px;
 }
-/*Garamond, serif*/
+
 .works:hover {
   border-style: solid;
   border-color: #f5f0f1;
@@ -330,12 +326,10 @@
 .education-box {
   border-left: solid #ff7d4a 1.5px;
   border-bottom: solid #ff7d4a 1.5px;
-  /*  box-shadow: 0px 10px 10px #f03e6e;    */
 }
 
 .education-box:hover {
   margin-top: 8px;
-
   transition: linear 0.3s;
 }
 
