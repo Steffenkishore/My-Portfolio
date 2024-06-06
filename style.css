@@ -2,7 +2,7 @@
 
 .background {
   /* background-color: #ffc933; */
-  background-image: url("https://img.freepik.com/free-photo/overhead-view-four-yellow-cardboard-papers_23-2147878397.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais");
+  background-image: url(background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
