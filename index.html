@@ -347,7 +347,6 @@
               <div class="mb-3">
                 <div class="d-flex flex-row justify-content-between">
                   <h2 class="skills">HTML</h2>
-                  <h2 class="percentage">95%</h2>
                 </div>
                 <div class="progress">
                   <div class="progress-line" style="width:95%; "></div>
@@ -357,7 +356,6 @@
               <div class="mb-3">
                 <div class="d-flex flex-row justify-content-between">
                   <h2 class="skills">CSS</h2>
-                  <h2 class="percentage" >85%</h2>
                 </div>
                 <div class="progress">
                   <div class="progress-line"></div>
@@ -367,7 +365,6 @@
               <div class="mb-3">
                 <div class="d-flex flex-row justify-content-between">
                   <h2 class="skills">JavaScript</h2>
-                  <h2 class="percentage">50%</h2>
                 </div>
                 <div class="progress">
                   <div class="progress-line" style="width:50%;"></div>
@@ -377,7 +374,6 @@
               <div class="mb-3">
                 <div class="d-flex flex-row justify-content-between">
                   <h2 class="skills">Python</h2>
-                  <h2 class="percentage">90%</h2>
                 </div>
                 <div class="progress">
                   <div class="progress-line" style="width:90%;"></div>
@@ -387,7 +383,6 @@
               <div class="mb-3">
                 <div class="d-flex flex-row justify-content-between">
                   <h2 class="skills">C</h2>
-                  <h2 class="percentage">70%</h2>
                 </div>
                 <div class="progress">
                   <div class="progress-line" style="width:70%;"></div>
@@ -533,13 +528,15 @@
                 </div>
 
                 <div class="col-12 col-md-6">
-                  <input type="text" id="name" placeholder="Your Name">
-                  <input type="text" id="name" placeholder="Your Email">
-                  <input type="text" id="name" placeholder="Subject">
-                  <textarea id="message" rows="5" cols="50" placeholder="Message"></textarea>
-                  <div class="" style="width:125px;">
-                    <button class="download-bt" id="message-btn">Send Message</button>
-                  </div>
+                  <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="557635b5-6c21-41c3-b53b-18582f074e3f">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="name" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <div class="" style="width:125px;">
+                      <button type="submit" class="download-bt" id="message-btn">Send Message</button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
